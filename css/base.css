@@ -1,0 +1,66 @@
+/*Reset CSS*/
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Etiquetas*/
+body{
+    background-color: rgb(236, 213, 247);
+    padding-bottom: 3rem;
+}
+/*header*/
+header {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    text-align: center;
+    padding: 1rem;
+}
+img{
+    width: 7rem;
+    display: block;
+    margin: auto;
+}
+hr{
+    border-color: blueviolet;
+}
+/*aside*/
+section{
+    h2, code {
+        padding: 1rem 1rem;
+    }
+    code {
+        display: inline-block;
+        color:rgb(3, 121, 32);
+        font-weight: bolder;
+        margin-bottom: 1rem;
+    }
+}
+/*article*/
+article {
+    h2, h4 {
+        padding: 1rem 1rem;
+    }
+    h4 {
+        border:1px solid blueviolet;
+        margin: 0 auto 1rem;
+        width: 80%;
+        color:blue
+    }
+}
+/*footer*/
+footer{
+    position:fixed;
+    bottom:1rem;
+    right:1rem;
+
+}
+/*Clases*/
+
+/*Indentificadores*/
+
+@media (max-width:600px){
+    header{
+        grid-template-columns: 1fr;
+    }
+}

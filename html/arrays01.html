@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript - Operadores aritmáticos</title>
+    <link rel="stylesheet" href="../css/base.css" />
+  </head>
+  <body>
+    <header>
+      <img src="..\img\logo.svg" alt="" tipos/>
+      <div>
+        <h1>Javascript Pfae URL</h1>
+        <h2>2024-2025</h2>
+      </div>
+    </header>
+    <section>
+      <hr />
+      <h2>Ejercicio: Control de flujo : OBJETOS DINÁMICOS </h2>
+    <code> 
+        const user = { id: 1 };<br />
+        user.name = "Raul";<br />
+        user.guardar = function () {<br />
+            &nbsp;&nbsp;&nbsp;document.write("guardando", user.name);<br />
+        };<br />
+        <br />
+        user.guardar();<br />
+        <br />
+        delete user.name;<br />
+        delete user.guardar;<br />
+        document.write("user ", user);<br />
+        <br />
+        const user1 = Object.freeze({ id: 1 });<br />
+        user1.name = "Rafa";<br />
+        user1.id = 2;<br />
+        document.write("user1 ", user1);<br />
+        <br />
+        const user2 = Object.seal({ id: 1 });<br />
+        user2.name = "Rafa";<br />
+        user2.id = 2;<br />
+        document.write("user2 ", user2);<br>
+        };<br>
+        user.recuperarUser();<br />
+        </code>  
+    </section><hr />
+    <article>
+      <h2>Resultado</h2>
+      <h4>
+        <script src="../05-objetos/01-intro.js"></script>
+      </h4>
+      <hr />
+    </article>
+    <footer>©2024</footer>
+  </body>
+</html>

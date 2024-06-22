@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript - Argumentos</title>
+    <link rel="stylesheet" href="../css/base.css" />
+  </head>
+  <body>
+    <header>
+      <img src="..\img\logo.svg" alt="" />
+      <div>
+        <h1>Javascript Pfae URL</h1>
+        <h2>2024-2025</h2>
+      </div>
+    </header>
+    <section>
+      <hr />
+      <h2>Ejercicio: Argumentos</h2>
+      <code> 
+        function suma(a) { // parámetro<br>
+            <br>
+            return a + 2;<br>
+          }<br>
+          <br>
+          document.write(suma(5)); // argumento<br>
+          <br>
+          function suma2(a, b) { // parámetros<br>
+            <br>
+            return a + b;<br>
+          }<br>
+          <br>
+          document.write(suma2(5,6)); // argumentos<br>
+          <br>
+          document.write(typeof suma);<br>
+          document.write(typeof suma2);<br>
+          <br>
+          function suma3(){<br>
+             return arguments;<br>
+          }<br>
+          <br>
+          console.log(suma3(1,2,3,4,5));<br>
+     </code>
+    </section> <hr />
+    <article>
+      <h2>Resultado</h2>
+      <h4>
+        <script src="../01-tipos/09-argumentos.js"></script>
+      </h4>
+      <hr />
+    </article>
+    <footer>©2024</footer>
+  </body>
+</html>
